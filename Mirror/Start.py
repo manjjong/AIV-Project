@@ -72,6 +72,7 @@ def prepare_stitch_data(images, gray_images):
         height_diff_list[i + 1] = new_candidate0[0] - new_candidate1[0]
         new_images[i + 1] = new_image
         ratio_list[i + 1] = ratio
+    print(height_diff_list)
 
     return new_images, width_gap_list, height_diff_list
 
